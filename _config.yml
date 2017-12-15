@@ -11,6 +11,9 @@ url:                 http://jiaoxn.info
 baseurl:             ''
 paginate:            5
 
+# github url
+github-url:          https://github.com/jiaoxn
+
 # About/contact
 author:
   name:              Jiao Xiang Ning
