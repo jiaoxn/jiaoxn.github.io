@@ -10,6 +10,7 @@ description:         就读于成都理工大学地球科学学院，研究方�
 url:                 jiaoxn.info
 baseurl:             'http://jiaoxn.info'
 paginate:            5
+homeurl:             ''
 
 # github url
 github-url:          https://github.com/jiaoxn
