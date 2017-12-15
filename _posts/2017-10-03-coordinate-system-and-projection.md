@@ -4,7 +4,7 @@ title: 地理空间的坐标系统和投影
 categories: GIS
 ---
 
-本文测试<!-- break -->
+本文测试<!-- more -->
 
 ## 1 相关概念
 

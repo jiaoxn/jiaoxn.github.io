@@ -23,3 +23,6 @@ author:
 
 # Custom vars
 version:             1.0.0
+
+# Abstract
+excerpt_separator:  '<!-- more -->'
