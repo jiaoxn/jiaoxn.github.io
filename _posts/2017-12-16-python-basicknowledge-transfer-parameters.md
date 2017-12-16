@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python中可变类型与不可变类型
+title: Python基础知识之参数传递
 categories: Python
 ---
 
