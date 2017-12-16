@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python基础知识之*args与**kwargs
-categories: GIS
+categories: Python
 ---
 
 本文简单介绍了Python语言中的*args与**kwargs<!-- more -->
