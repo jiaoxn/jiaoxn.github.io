@@ -1,0 +1,25 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+# Setup
+title:               阿焦的博客
+tagline:             一名拥抱AI的GISer
+description:         就读于成都理工大学地球科学学院，研究方向为空间分析模型与方法，一名懂AI的GISer
+url:                 ''
+baseurl:             ''
+paginate:            5
+homeurl:             '/'
+
+# github url
+github-url:          https://github.com/jiaoxn
+
+# About/contact
+author:
+  name:              Jiao Xiang Ning
+  url:               http://jiaoxn.info
+  email:             jiao.xiang.ning@qq.com
+
+# Custom vars
+version:             1.0.0
