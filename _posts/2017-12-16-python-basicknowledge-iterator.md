@@ -4,6 +4,8 @@ title: Python基础知识之迭代器与生成器
 categories: Python
 ---
 
+本文简单介绍了Python语言中的迭代器与生成器<!-- more -->
+
 ### 容器（Container） ###
 
 容器是一种把多个元素组织在一起的结构，容器中的元素可以逐个地迭代获取，可以用in、not in关键字判断元素是否在容器中，Python中常用的容器有：list、dict、tuple、set、str...

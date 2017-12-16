@@ -4,6 +4,10 @@ title: Python中可变类型与不可变类型
 categories: Python
 ---
 
+本文简单介绍了Python语言中的参数传递<!-- more -->
+
+## Python中可变类型与不可变类型 ##
+
 Python中可变类型有**dict**和**list**，不可变类型有**int**、**string**、**float**和**tuple**。
 
 此处提到的可变与不可变是指是否能够在原来的内存地址上修改值。
