@@ -11,6 +11,8 @@ url:                 jiaoxn.info
 baseurl:             'http://jiaoxn.info'
 paginate:            5
 homeurl:             '/'
+abouturl:            '/about/'
+categoriesurl:       '/categories/'
 
 # github url
 github-url:          https://github.com/jiaoxn
