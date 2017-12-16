@@ -10,9 +10,9 @@
 
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.url == site.homeurl %} active{% endif %}" href="/">Home</a>
-    <a class="sidebar-nav-item" href="{{ site.baseurl }}/categories/">Categories</a>
+    <a class="sidebar-nav-item{% if page.url == site.categoriesurl %} active{% endif %}" href="{{ site.baseurl }}/categories/">Categories</a>
     <a class="sidebar-nav-item" href="{{ site.github-url }}">GitHub Projects</a>
-    <a class="sidebar-nav-item" href="{{ site.baseurl }}/about/">About</a>
+    <a class="sidebar-nav-item{% if page.url == site.abouturl %} active{% endif %}" href="{{ site.baseurl }}/about/">About</a>
   </nav>
 
   <div class="sidebar-item">
