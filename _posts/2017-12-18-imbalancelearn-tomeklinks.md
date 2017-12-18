@@ -6,11 +6,11 @@ categories: 不平衡分类
 
 
 ## 文章摘要 ##
-本文介绍了不平衡分类算法TomekLinks的核心思想以及分析了Python的**imbalanced-learn**包实现**TomekLinks**的核心代码 <!-- more -->
+本文介绍了不平衡分类算法TomekLinks的核心思想以及分析了Python的imbalanced-learn包实现TomekLinks的核心代码 <!-- more -->
 
 ## TomekLinks算法核心思想  ##
 
-**TomekLinks**算法属于欠采样方法的一种，其核心思想是：假如两个不同类别的样本，它们的最近邻都是对方，那么它们就是一对**TomekLink**；**TomekLinks**算法将数据集中的所有的**TomekLink**对全部删除，方法是如果一对**TomekLink**中有一个样本属于多数类，则将该样本从数据集中删除。
+TomekLinks算法属于欠采样方法的一种，其核心思想是：假如两个不同类别的样本，它们的最近邻都是对方，那么它们就是一对TomekLink；TomekLinks算法将数据集中的所有的TomekLink对全部删除，方法是如果一对TomekLink中有一个样本属于多数类，则将该样本从数据集中删除。
 
 ## TomekLinks算法伪代码 ##
 
@@ -19,9 +19,9 @@ categories: 不平衡分类
 
 ## TomekLinks算法实现核心代码解析 ##
 
-**imbalanced-learn**包实现**TomekLinks**算法用到四个类，分别为*TomekLinks*、*BaseClearningSampler*、*BaseSampler*和*SampleMixin*，它们依次为**继承**关系，即类*TomekLinks*继承类*BaseClearningSampler*。
+imbalanced-learn包实现TomekLinks算法用到四个类，分别为*TomekLinks*、*BaseClearningSampler*、*BaseSampler*和*SampleMixin*，它们依次为**继承**关系，即类*TomekLinks*继承类*BaseClearningSampler*。
 
-在**Python**代码中使用**TomekLinks**算法时需要用到*TomekLinks*类，使用方式如下：
+在Python代码中使用TomekLinks算法时需要用到*TomekLinks*类，使用方式如下：
 
 	from imblearn.under_sampling import TomekLinks
 
